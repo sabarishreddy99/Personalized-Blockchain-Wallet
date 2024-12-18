@@ -1,0 +1,96 @@
+.transactions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    
+  }
+  
+  .transactions-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .form-group button {
+   
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .fetch-button {
+   margin: 20px;
+    padding: 10px 20px;
+    
+  }
+  .button-show {
+  
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  .clear-button {
+    background-color: #f44336;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .transactions-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-item p {
+    margin: 5px 0;
+  }
+
+  .toggle-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    background-color: #45a049;
+  }

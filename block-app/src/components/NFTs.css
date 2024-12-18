@@ -1,0 +1,65 @@
+.nfts-container {
+    max-width: 1200px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+  }
+  
+  .nfts-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+ 
+  
+  .nft-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    margin-left: 15%;
+    display: inline-block;
+  }
+  
+  .nft-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .nft-details {
+    padding: 10px;
+  }
+  
+  .nft-details h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .nft-details p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .toggle-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    background-color: #45a049;
+  }

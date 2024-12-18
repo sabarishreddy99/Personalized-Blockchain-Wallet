@@ -1,0 +1,98 @@
+/* Container and Header */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+}
+
+.chart-container, .table-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.table-container {
+  overflow-y: auto;
+}
+
+.crypto-table {
+  width: calc(100% - 20px);
+  margin: auto;
+}
+
+.crypto-table th,
+.crypto-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.crypto-table th {
+  background-color: #f2f2f2;
+}
+
+.crypto-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.crypto-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+/* Buttons */
+.navigate-wallet, .refresh-button {
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navigate-wallet:hover, .refresh-button:hover {
+  background-color: #45a049;
+}
+
+/* Chart Section */
+.live-chart-container {
+  margin-top: 20px;
+}
+
+.live-chart-iframe {
+  width: 100%;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  background-color: white;
+  padding: calc(0.5em + .2vw);
+}
+
+/* Responsive Design */
+@media (max-width:768px) { 
+   .content {
+     flex-direction: column; 
+   }
+   .header {
+     font-size :calc(3vw+12 px)
+   }
+}
